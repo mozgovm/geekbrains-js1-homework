@@ -68,5 +68,5 @@ for (let i = 0; i < 10; i++, console.log(i-1)) {}
 let pyramid = [];
 for (let i = 0; i < 20; i++) {
 pyramid.push("x");
-console.log(pyramid.toString().replace(/,/g, ''));
+console.log(pyramid.join(""));
 }
